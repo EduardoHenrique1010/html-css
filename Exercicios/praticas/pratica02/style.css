@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body{
+background-image: linear-gradient(to right, #062A73,#02224d);
+
+}
+h1#principal{
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(143, 202, 143) ;
+
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#d9d9d9ab ;
+    border-radius: 10px;
+}
+h2{
+font-style: italic;
+background-color:#023059 ;
+border-radius: 10px;
+
+}
+.basico{
+color: rgb(143, 202, 143);
+
+}
+.intermediario{
+color: rgb(223, 223, 151);
+
+}
+.avançado{
+    color: rgb(209, 126, 126);
+
+
+}
+p{
+text-align: justify;
+
+
+}
