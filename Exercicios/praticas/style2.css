@@ -1,0 +1,44 @@
+@charset "UTF-8";
+*{
+
+    background-image: linear-gradient(to left, black, rgb(231, 46, 46));
+}
+section{
+padding-left: 20px;
+text-align: left;
+line-height: 2em;
+padding-bottom: 20px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px black;
+}
+header{
+    text-align: center;
+    
+}
+section.normal{
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+section.imagem{
+background:blue url(fotodefundo.webp) center center repeat  ;
+
+}
+section.imagem > p{
+
+    background-color: coral;
+   border-radius: 10px;
+   font-variant: small-caps;
+}
+header  a:hover{
+
+background-color: rgb(5, 82, 56);
+border-radius: 10px;
+transition-duration: 2s;
+
+}
+header > h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aqua;
+font-variant: small-caps;
+background-image: linear-gradient( to right, rgb(0, 0, 0), rgb(195, 195, 224));
+}
