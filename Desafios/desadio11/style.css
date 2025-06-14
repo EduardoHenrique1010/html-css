@@ -32,6 +32,9 @@
  header p{
     padding-bottom: 50px;
  }
+ section p{
+   padding-bottom: 2em;
+ }
  a{
     color:white ;
     text-decoration: none;
@@ -48,12 +51,15 @@ section.normal{
 section.imagem{
 background-color:rgb(49, 49, 49) ;
 color: white;
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.432) ;
+background-attachment: fixed;
 
 }
 section image > p{
 display: inline-block;
     background-color: rgba(0, 0, 0, 0.295);
     padding: 5px;
+    text-shadow:  1px 1px 0px black;
 }
 section{
     padding-top: 10vh;
@@ -69,4 +75,16 @@ section{
         text-align: center;
         color: white;
         padding: 10px;
+    }
+    section#img01{
+background-image: url(joaninha.jpeg);
+background-repeat:no-repeat;
+background-position: center;
+background-size: cover;
+    }
+    section#img02{
+background-image: url(carta.jpg);
+background-repeat:no-repeat;
+background-position: left top;
+background-size: cover;
     }
