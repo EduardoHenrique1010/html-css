@@ -1,0 +1,18 @@
+@charset "UTF-8";
+section{
+    margin-bottom: 100px;
+    font-size: 3,5vw;
+    
+
+}
+section.normal{
+    background-color: wheat;
+    display: inline-block;
+    padding: 5px;
+}
+section.imagem{
+    background-color: aqua;
+}
+header h1{
+    font-size: 4.5vw;
+}
