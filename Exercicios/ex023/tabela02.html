@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+td.num{
+    border: 1px solid black;
+    text-align: right;
+}
+td,th{
+    border: 1px  solid black;
+    padding: 10px;
+  
+   
+}
+table{
+    border-collapse: collapse;
+    
+}
+thead{
+    background-color: gray;
+    color: aliceblue;
+}
+tbody > tr:nth-child(even){
+    background-color: rgb(139, 143, 141)
+}
+/* "even" para "inpa" "odd" para "par"*/
+
+    </style>
+</head>
+<body>
+    <TABLE>
+        <thead>
+        <th>Estado</th>
+        <th>
+            Quantidade
+        </th>
+        </thead>
+        <tbody>
+        <th>são paulo</th>
+        <td class="num">
+        11 895 578
+        </td>
+<tr>
+    
+            <th>Guarulhos</th>
+           <td class="num">1 345 364</td>
+    
+</tr>
+<tr>
+<th>Campinas</th>
+<td class="num">1 185 977</td>
+
+</tr>
+<tr>
+<th>Paraná</th>
+<td class="num">11 824 665</td>
+
+
+</tr>
+<tr>
+<th>Pará</th>
+<td class="num">8 664 306</td>
+</tr>
+<tr>
+<th>Roraima</th>
+<td class="num">716 793	</td>
+</tr>
+        
+        </tbody>
+        <tfoot>
+        </tfoot>
+
+    </TABLE>
+    
+</body>
+</html>
