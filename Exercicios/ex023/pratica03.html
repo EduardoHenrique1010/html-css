@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando tabelas</title>
+    <style>
+
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+
+  
+}
+thead{
+    background-color: dimgray;
+    color: antiquewhite;
+
+
+}
+tbody > tr:nth-child(odd){
+    background-color: grey;
+}
+tbody > tr:nth-child(even){
+background-color: cornflowerblue;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+td.num{
+    text-align: right;
+}
+
+
+
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+
+    <tr>
+        <th class="titulo">Estados do Pará</th>
+        <td class="titulo">Informações</td>
+    </tr>
+
+
+</thead>
+    <tbody>
+<tr>
+<th>Área Territorial</th>
+<td class="num">1.245.828,829
+km²
+</td>
+</tr>
+<tr>
+<th>População no último censo</th>
+<td class="num">8.120.131
+pessoas</td>
+</tr>
+<tr>
+<th>Densidade demográfica</th>
+<td class="num">6,52
+hab/km²</td>
+</tr>
+<tr>
+<th>População estimada</th>
+<td class="num">8.664.306
+pessoas</td>
+</tr>
+<tr>
+<th>Matrículas no ensino fundamental</th>
+<td class="num">1.331.723
+matrículas
+</td>
+</tr>
+</tbody>
+    <tfoot>
+<tr>
+    <th><a href="https://www.ibge.gov.br/cidades-e-estados/pa/" target="_blank">Site</a></th>
+</tr>
+
+
+</tfoot>
+
+
+</table>
+
+</body>
+</html>
