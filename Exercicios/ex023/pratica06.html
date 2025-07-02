@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando tabelas</title>
+    <style>
+table{
+   border-collapse: collapse;
+}
+td{
+   
+    border: 1px solid black;
+    padding: 10px;
+   width: 250px;
+}
+td.colunadupla{
+    text-align: center;
+}
+th.data{
+width: 100px;
+border: 1px solid black;
+padding-top: 25px;
+background-color: dimgray;
+color: aliceblue;
+}
+td.numero{
+  text-align: right;
+  
+}
+
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+          <th class="data">Data</th>
+          <th colspan="2n" class="data">Dados</th>
+           
+        </tr>
+        <tr>
+          <td>2019</td>
+            <td class="numero"
+            num>189448,36</td>
+            <td class="numero"
+            num>184855,30</td>
+        </tr>
+        <tr>
+            <td >2026</td>
+            <td class="numero"
+            num>54263,3</td>
+            <td class="numero"
+            num>5879,36</td>
+        </tr>
+        <tr>
+            <td class="data" class="numero">2030</td>
+           </td>
+            <td class="numero"
+            num>154</td>
+            <td class="numero">95</td>
+        </tr>
+    </table>
+</body>
+</html>
