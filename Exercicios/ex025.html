@@ -3,18 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEu primeiro formulario</title>
+    <title>Criando um formulario</title>
 </head>
 <body>
-    <h1>Meu primeiro formulario</h1>
-    <form action="">
-<p>Nome: <input type="text"></p>
-<p>Sobrenome: <input type="text"></p>
-<p><input type="submit" value="Enviar"></p>
+<form action="cadastro.php" method="get" autocomplete="on">
+<label for="Nome">Nome:</label>
+<input type="text" name="" id="Nome" required placeholder="Coloque seu nome">
+
+<p>
+    <label for="Senha">Senha:</label>
+    <input type="text" name="Senha" id="Senha" required placeholder="Coloque sua senha">
+</p>
+<p>
+    <label for="media">Média:</label>
+    <input type="number" name="" id="media"
+    required autocomplete="off" placeholder="Coloque sua media" step="0.1" value="5" min="5" max="10">
+</p>
+<p>
+    <label for="messes">Mês:</label>
+    <input type="month" name="messes" id="messes" required>
+</p>
+<p>
+    <label for="dia">Dia:</label>
+    <input type="date" name="" id="dia" required>
+</p>
+<p>
+    <label for="hora">Horario:</label>
+    <input type="time" name="" id="hora" required>
+</p>
+<input type="submit" value="enviar dados">
+<input type="reset" value="Limpar dados">
 
 
 
-    </form>
-    
+
+</form>
 </body>
 </html>
