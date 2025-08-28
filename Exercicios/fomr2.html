@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="Cadastro.php" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+                   <input type="text" name="nome" id="inome " required maxlength="30" minlength="10" placeholder="coloque seu nome">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required placeholder="coloque sua senha" minlength="8" maxlength="20">
+            
+        </p>
+        <p>
+            <label for="idata">Data:</label>
+            <input type="date" name="" id="idata" required >
+        </p>
+   
+        <input type="submit" value="Enviar dados">
+        <input type="reset" value="Limpar dados">
+
+
+    </form>
+</body>
+</html>
