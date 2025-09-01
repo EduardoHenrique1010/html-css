@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+background-image: linear-gradient(to right,
+rgb(67, 67, 231),rgb(131, 131, 180));
+
+}
+body > form > fieldset{
+    text-align: center;
+    border-radius: 10px;
+}
