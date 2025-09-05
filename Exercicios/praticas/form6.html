@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+form > fieldset{
+    border-radius: 5px;
+background-image: linear-gradient(to right, rgb(72, 72, 241), rgb(34, 54, 235));
+   
+
+}
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+<fieldset><legend>Dados pessoais</legend>
+    <p><label for="SexoF">Feminino: <input type="radio" name="genero" id="SexoF"></label></p>
+    <label for="Masculino">Masculino: <input type="radio" name="genero" id="Masculino"></label>
+  
+</fieldset>
+<fieldset><legend>Dados não necessarios</legend>
+<label for="futebol">Futebol:
+    <input type="checkbox" name=" Futebol" id="futebol">
+</label>
+<p><label for="Vôlei">Vôlei: <input type="checkbox" name="volei" id="Vôlei"></label></p>
+
+</fieldset>
+    </form>
+</body>
+</html>
