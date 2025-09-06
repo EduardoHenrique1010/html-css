@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+fieldset{
+    background-color: rgba(131, 127, 127, 0.301);
+    border-radius: 5px;
+}
+legend{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(37, 37, 226) , rgb(146, 146, 219));
+}
+
+
+
+    </style>
+</head>
+<body>
+    <fieldset><legend>Seu Genero</legend>
+        <form action="Cadasttro.php" method="post">
+        <p>
+            <label for="F">Feminino:</label>
+            <input type="radio" name="Genero" id="F">
+        </p>
+        <p>
+            <label for="M">Masculino:</label>
+            <input type="radio" name="Genero" id="M">
+        </p>
+        </form>
+    </fieldset>
+    <fieldset><legend>Cor</legend>
+        <form action="cadastro.php" method="post">
+            <p>
+                <label for="Branco">Branco:</label>
+                <input type="radio" name="Cor" id="Branco">
+            </p>
+            <p>
+                <label for="Preto">Preto:</label>
+                <input type="radio" name="Cor" id="Preto">
+            </p>
+            <p>
+                <label for="Amarelo">Amarelo:</label>
+                <input type="radio" name="Cor" id="Amarelo">
+            </p>
+            <p><label for="Pardo">Pardo:</label>
+            <input type="radio" name="Cor" id="Pardo"></p>
+        </form>
+    </fieldset>
+    <fieldset><legend>Região</legend>
+        <form action="cadastro.php" method="post">
+            <p><label for="Norte">Norte:</label><input type="checkbox" name="Norte" id="Norte"></p>
+            <p>
+                <label for="Sul">Sul:</label>
+                <input type="checkbox" name="Sul" id="Sul">
+            </p>
+            <p><label for="Leste">Leste:</label><input type="checkbox" name="Leste" id="Leste"></p>
+            <p><label for="Oeste">Oeste</label> <input type="checkbox" name="Oeste" id="Oeste"> </p>
+            <p><label for="Senha">Senha:</label><input type="password" name="Senha" id="Senha" required placeholder="digite sua senha" minlength="8" maxlength="20"></p>
+            <p>
+                <input type="reset" value="Limpar dados">
+                <input type="submit" value="Enviar dados">
+
+            </p>
+
+
+        </form>
+    </fieldset>
+</body>
+</html>
