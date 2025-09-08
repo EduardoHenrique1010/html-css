@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>novos controle de input</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+<p><label for="icor">cor:
+    <input type="color" name="cor" id="icor" value="#00ff00">
+</label></p>
+<p>
+<label for="inivel">Selecione um Nivel: <input type="range" name="Nivel" id="inivel" min="1" value="2" max="10"></label>
+</p>
+<p>
+    <label for="iarquivo">Selecione o arquivo</label>
+    <input type="file" name="arquivo" id="iarquivo" required>
+</p>
+<fieldset><legend>Enviar dados</legend>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar dados">
+</fieldset>
+
+
+    </form>
+</body>
+</html>
