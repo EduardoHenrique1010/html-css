@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 11</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+<fieldset><legend>Dados pessoais</legend>
+    <p>
+        <label for="iNome">Nome:</label>
+        <input type="text" name="nome" id="iNome">
+    </p>
+    <p>
+        <label for="iSenha">Senha:</label>
+       <input type="password" name="senha" id="iSenha" required min="8" max="20"
+        placeholder="coloque sua senha">
+    </p>
+</fieldset>
+<fieldset><legend>Dados Bancarios</legend>
+<p>
+    <label for="iCPF">  CPF:</label>
+    <input type="text" name="" id="iCPF" required placeholder=" xxxx xxxx xx">
+    
+</p>
+<p>
+    <label for="iAvaliaçao">Avaliação</label>
+    <input type="range" name="" id="iAvaliaçao" min="1" max="10" value="10">
+    <p><input type="color" name="" id=""></p>
+</p>
+<p>
+<label for="genero">Seu genero:</label>
+
+<p><input type="radio" name="genero" id="M">Masculino</p>
+<p><input type="radio" name="genero" id="F">Feminino</p>
+
+</p>
+
+</fieldset>
+<input type="reset" value="Limpar dados">
+<input type="submit" value="Enviar dados">
+    </form>
+</body>
+</html>
