@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body{
+background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+ul{
+    background-color: #A9E4EF;
+    border: 2px solid rgb(243, 255, 132);
+    border-radius: 20px;
+
+}
+ul > li{
+    list-style-type: none;
+    padding: 10px;
+
+   
+}
+ul:hover{
+    background-color: #355a61;
+  transition-duration:1s ;
+  color: white;
+  
+}
+
+
+
