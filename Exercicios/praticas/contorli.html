@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoles novos</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+<fieldset><legend>Dados pessoais</legend>
+    <p>
+    <label for="Lista">Região:</label>
+    
+    
+    
+            <select name="regiao" id="R">
+                <option value="Escolha" selected>   Escolha   </option>
+            <option value="RJ">Rio de janeiro</option>
+            <option value="MG">Minas gerais</option>
+            <option value="PA">Pará</option>
+    
+            </select>
+    
+    
+    </p>
+    <p>
+        <label for="Lista">Selecione seu emprego</label>
+        <input type="text" name="Lista" id="Liata" list="Lista" required>
+       <datalist id="Lista">
+    
+    <option value="ADM">Administrafdor</option>
+    <option value="Dms">DMAMDMAD</option>
+    <option value="AV">ABBJQWWJD</option>
+       </datalist>
+    </p>
+    
+    
+    <p>
+        <input type="submit" value="Enviar dados">
+        <input type="reset" value="Limpar dados">
+    </p>
+    <p>
+<label for="Mensagem">Escreva sua  mensagem para enviar:</label>
+<p><textarea name="Txt" id="Mensagem">
+   Olá sou professor¹
+
+
+
+
+</textarea>
+
+    </p>
+</fieldset>
+    </form>
+
+</body>
+</html>
