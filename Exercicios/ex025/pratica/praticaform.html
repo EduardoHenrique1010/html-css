@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+
+
+<fieldset><legend>Calculadora</legend>
+    <p>
+        <label for="inum1">Numero 1: </label>
+        <input type="number" name="numero" id="inum1" min="1" max="5000" step="1" placeholder="xx" required oninput="resultado.innerHTML = Number(inum1.value) + Number(inum2.value)">
+    </p>
+    
+    
+    <p>
+    <label for="inum2">Numero 2: </label>
+    <input type="number" name="numero" id="inum2" required min="1" max="5000" step="1"placeholder="xx" oninput="resultado.innerHTML = Number(inum1.value) + Number(inum2.value)">
+    </p>
+
+</fieldset>
+<fieldset><legend>Resultado</legend>
+    <p>
+        <p><output id="resultado">0</output></p>
+    </fieldset>
+    </p>
+
+<div> 
+        <input type="reset" value="Limpar dados">
+        <input type="submit" value="Envair dados">
+</div>
+
+    </form>
+</body>
+</html>
