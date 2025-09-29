@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Formulario</title>
+</head>
+<body>
+    <h1>Praticando Nivel</h1>
+    <form action="cadastro.php" method="post">
+
+<p>
+<label for="Ni">Nivel</label>
+<input type="range" name="Nivel" id="Ni" min="10" max="100" step="10"
+oninput="R.innerHTML = Number(Ni.value)">
+</p>
+<p>
+    <output id="R">0</output>
+</p>
+
+    </form>
+</body>
+</html>
