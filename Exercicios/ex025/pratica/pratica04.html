@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Site</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="Cadastro.php" method="post">
+        <fieldset><legend>Formulario de daods</legend>
+            <p>
+                <label for="inum1">Numero Positivo:</label>
+                <input type="number" name="" id="inum1" oninput="resultado.innerHTML= Number(inum1.value)+ Number(inum2.value)">
+            </p>
+            <p>
+                <label for="inum2">Numero Negativo:</label>
+                <input type="number" name="" id="inum2" oninput="resultado.innerHTML=Number(inum1.value)- Number(inum2.value)">
+            </p>
+            <p>
+                <output id="resultado">0</output>
+            </p>
+            <p>
+                <input type="reset" value="Limpar dados">
+                <input type="submit" value="Enviar">
+            </p>
+        </fieldset>
+        <fieldset><legend>Formulario 2</legend>
+            <p>
+                <label for="ni">Selecione:</label>
+                <input type="range" name="" id="ni" step="10" oninput="REsultado.innerHTML=Number(ni.value) ">
+                <output id="REsultado">0</output>
+
+            </p>
+
+
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
