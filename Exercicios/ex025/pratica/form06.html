@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando forulario</title>
+    <link rel="stylesheet" href="style02.css">
+</head>
+<body>
+   <form action="cadastro.php" method="post">
+<fieldset><legend>Calculadora</legend>
+    <p>
+        <label for="inum1">Numero 1:</label>
+        <input type="number" name="" id="inum1" oninput="Resultado.innerHTML=Number(inum1.value) - Number(inum2.value)">
+    </p>
+    <p>
+    <label for="inum2">Numero 2:</label>
+    <input type="number" name="" id="inum2" oninput="Resultado.innerHTML=Number(inum1.value)+Number(inum2.value)">
+    
+    </p>
+    <output id="Resultado">0</output>
+    <p>
+    <input type="reset" value="Limpar dados" class="A">
+    <input type="submit" value="Enviar dados" class="A">
+    </p>
+</fieldset>
+
+    </form>
+</body>
+</html>

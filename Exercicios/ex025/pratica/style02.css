@@ -1,0 +1,16 @@
+@charset "UTF-8";
+fieldset{
+    background-image: linear-gradient(to right,rgb(95, 158, 230), rgb(74, 159, 228));
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+
+}
+legend{
+    background-color: aquamarine;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: blueviolet;
+}
+p > input.A{
+    border-radius: 10px;
+}
