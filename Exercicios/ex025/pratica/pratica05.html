@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento de Registro</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post">
+        <h1>Formluario</h1>
+<fieldset><legend>Dados pessoais</legend>
+    <p>
+    <label for="inum1">Numero 1:</label>
+    <input type="number" name="numero" id="inum1" oninput="Resultado.innerHTML=Number(inum1.value)+Number(inum2.value)">
+    
+    </p>
+    <p>
+    <label for="inum2">Numero 2:</label>
+    <input type="number" name="numero" id="inum2" oninput="Resultado.innerHTML=Number(inum1.value)+Number(inum2.value)">
+    </p>
+    <output id="Resultado">0</output>
+</fieldset>
+<p>
+    <input type="reset" value="Limpar dados">
+    <input type="submit" value="Enviar dados">
+</p>
+
+    </form>
+</body>
+</html>
