@@ -1,0 +1,43 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ header{
+text-align: center;
+ background-color: #044BD9;
+ width: 100%px;
+
+ }
+ 
+
+ /*
+ #044BD9-Cor  do fundo
+ #0455BF-cor mais fraca
+ #022859-Cor muito forte
+ #05F2DB-Cor Bem azulada
+ */
+ 
+ 
+ 
+ 
+ ul{
+list-style: none;
+background-color:#0455bf ;
+border-radius: 0px 0px 10px 10px;
+
+ }
+ /* para tira as bolinhas do lado das ul*/
+
+ li{
+    display: inline;
+    margin-right: 100px;
+  text-decoration: none;
+ }
+ /* para deixa as li de lado uma do lado da outra.o margin e o espaço entre elas*/
+ a{
+    text-decoration: none;
+ color: black;
+ text-align: center;
+justify-content: center;
+ }
