@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/*typical device breakpoints
+celular:
+tablet:
+desktop
+*/
 /*Todas as Demais Midias*/
 @media print{
 
