@@ -1,1 +1,63 @@
 @charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    background-color: lightgreen;
+}
+header{
+    background-color: gray;
+}
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+menu{
+    display: none;
+}
+menu > ul{
+list-style-type: none;
+}
+menu > ul > li > a{
+display: block;
+padding: 10px;
+text-decoration: none;
+background-color: rgb(46, 45, 45);
+color: white;
+text-align: center;
+border-top: 1px solid rgba(0, 0, 0, 0.534);
+}
+menu > ul > li > a:hover{
+    background-color: rgb(168, 165, 165);
+}
+span#Amburguer{
+    background-color: rgb(29, 29, 29);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;/*Vira uma maozinha*/
+}
+span#Amburguer:hover{
+    background-color: white;
+    color: black;
+}
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+article > h1{
+    padding-bottom: 20px;
+}
+article > p {
+text-align: justify;
+margin-bottom: 10px;
+text-indent: 20px;/*Espaço entre paragrafo*/
+}
