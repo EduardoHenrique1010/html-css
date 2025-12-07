@@ -10,10 +10,10 @@
 <body>
     <header>
 <h1>Meu site</h1>
-<span id="Amburguer" class="material-symbols-outlined">
-menu
+<span id="Amburguer" class="material-symbols-outlined" onclick="clickMenu()" >menu</span>
+
 </span>
-<menu>
+<menu id="Menu">
     <ul>
         <li><a href="#">Opção 1</a></li>
         <li><a href="#">Opção 2</a></li>   
@@ -30,5 +30,14 @@ menu
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus at nam atque, iste, nobis itaque debitis et cupiditate eligendi numquam, earum pariatur fugit reiciendis architecto tempora! Suscipit doloribus excepturi atque!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eligendi? Reprehenderit ex dignissimos, ullam molestiae libero laborum. Esse facere saepe nihil laborum magnam eligendi! Nulla nisi corporis sed delectus non.</p>
 </article>
     </main>
+    <script>
+        function clickMenu(){
+           if (Menu.style.display == "block"){
+            Menu.style.display = "none"}
+            else {
+                Menu.style.display = "block"
+            }
+        }
+    </script>/*aparecer e sumir o menu*/
 </body>
 </html>
